@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+//TUGAS PRAKTIKUM DIRUMAH (Function Prototype) 28/04/2020 MUHAMMAD REZEKI 
+//diletakkan sebelum function utama
+void functionPrototype();
+//function utama
+int main (){
+	functionPrototype();
+	return 0;
+}
+//badan function
+void functionPrototype(){
+double Nilai1 , Nilai2;
+	
+	cout << "Masukan Nilai Pertama yang akan di proses : "<<endl;
+	cin >> Nilai1;
+	cout << endl;
+	cout << "Masukan Nilai Kedua yang akan di proses : "<<endl;
+	cin >> Nilai2;
+	cout << endl;
+	
+	cout <<"Kalkulator PolankaSukses" <<endl;
+	cout <<"***************************"<<endl;
+	cout << "Hasil dari Pertambahan : "<< (Nilai1 + Nilai2)<< endl;	
+	cout <<"***************************"<<endl;
+	cout << "Hasil dari Pengurangan : "<< (Nilai1 - Nilai2)<< endl;
+	cout <<"***************************"<<endl;
+	cout << "Hasil dari Perkalian : "<< (Nilai1 * Nilai2)<< endl;
+	cout <<"***************************"<<endl;
+	cout << "Hasil dari Pembagian : "<< (Nilai1 / Nilai2)<< endl;
+	cout <<"***************************"<<endl;
+}
