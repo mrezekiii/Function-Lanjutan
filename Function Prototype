@@ -10,7 +10,7 @@ int main (){
 }
 //badan function
 void functionPrototype(){
-double Nilai1 , Nilai2;
+int Nilai1 , Nilai2;
 	
 	cout << "Masukan Nilai Pertama yang akan di proses : "<<endl;
 	cin >> Nilai1;
